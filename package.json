@@ -9,7 +9,6 @@
   "author": "Adrian Toro",
   "license": "MIT",
   "dependencies": {
-    "fast-xml-parser": "^4.0.12",
     "lodash": "^4.17.21",
     "xml-js": "^1.6.11"
   },
@@ -18,6 +17,8 @@
     "url": "git+https://github.com/adriantoro26/eSocket.pos.git"
   },
   "devDependencies": {
-    "eslint": "^8.29.0"
+    "eslint": "^8.29.0",
+    "npm-check": "^4.1.4",
+    "lint-staged": "^12.3.5"
   }
 }
