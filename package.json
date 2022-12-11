@@ -2,7 +2,8 @@
   "name": "eSocket",
   "version": "1.0.0",
   "scripts": {
-    "start": "node index.js"
+    "deps": "npm-check -u",
+    "lint": "eslint services"
   },
   "main": "index.js",
   "author": "Adrian Toro",
@@ -11,5 +12,8 @@
     "fast-xml-parser": "^4.0.12",
     "lodash": "^4.17.21",
     "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0"
   }
 }

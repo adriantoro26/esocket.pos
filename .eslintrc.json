@@ -1,0 +1,22 @@
+{
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "es6": true,
+    "jasmine": true
+  },
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "2018",
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", "tab", { "SwitchCase": 1 }],
+    "quotes": ["error", "double", { "avoidEscape": true }],
+    "semi": ["error", "always"],
+    "no-var": ["error"],
+    "no-console": ["off"],
+    "no-unused-vars": ["warn"],
+    "no-mixed-spaces-and-tabs": ["warn"]
+  }
+}
