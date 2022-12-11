@@ -1,6 +1,6 @@
 {
   "name": "esocket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "deps": "npm-check -u",
     "lint": "eslint services"
