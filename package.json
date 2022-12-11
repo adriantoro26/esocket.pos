@@ -1,24 +1,13 @@
 {
-  "name": "esocket",
-  "version": "1.0.1",
-  "scripts": {
-    "deps": "npm-check -u",
-    "lint": "eslint services"
-  },
+  "name": "esocket.pos",
+  "version": "1.0.0",
   "main": "index.js",
-  "author": "Adrian Toro",
+  "repository": "https://github.com/adriantoro26/eSocket.pos.git",
+  "author": "Adrian Toro <adriandesantis26@gmail.com>",
   "license": "MIT",
+  "private": false,
   "dependencies": {
     "lodash": "^4.17.21",
     "xml-js": "^1.6.11"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adriantoro26/eSocket.pos.git"
-  },
-  "devDependencies": {
-    "eslint": "^8.29.0",
-    "npm-check": "^4.1.4",
-    "lint-staged": "^12.3.5"
   }
 }
